@@ -1,0 +1,118 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding: o 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #f9f6f1;
+}
+
+.header__inner {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav {
+  -webkit-box-ordinal-group: -1;
+  -webkit-order: -2;
+      -ms-flex-order: -2;
+          order: -2;
+  max-width: 445px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__link {
+  padding-right: 18px;
+  position: relative;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.menu__link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 6px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+}
+
+.menu__item {
+  position: relative;
+  padding: 1em 0;
+}
+
+.menu__item + .menu__item {
+  margin-left: 35px;
+}
+
+.submenu {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #d7b399;
+  width: 100%;
+  z-index: 2;
+}
+
+.submenu__item {
+  color: #212121;
+  text-decoration: none;
+  display: block;
+  padding: 0.8em 0.3em;
+}
+
+.logo {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
