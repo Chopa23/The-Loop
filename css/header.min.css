@@ -44,3 +44,26 @@
 .header__link + .header__link {
   margin-left: 35px;
 }
+
+.header__submenu {
+  display: none;
+  position: absolute;
+  text-decoration: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #d7b399;
+  z-index: 1;
+}
+
+.headersubmenu-link {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 0.8em o 0.3em;
+}
+
+.menu__item .menu__link:hover {
+  display: block;
+}
