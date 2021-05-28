@@ -28,12 +28,12 @@ a {
 
 .informer:before {
   position: absolute;
-  right: 405px;
-  top: 0;
+  right: 452px;
+  top: 65px;
   content: "";
   width: 15px;
-  height: 5px;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-right: 5px solid #d7b399;
+  height: 10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #d7b399;
 }
