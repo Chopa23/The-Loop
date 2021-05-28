@@ -16,20 +16,20 @@ a {
 
 .informer {
   display: inline-block;
-  padding: 3px 45px;
-  margin: ;
+  padding: 3px 18px;
+  margin: 3px;
   background-color: $accent-color;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 15px;
 }
-::before {
+.informer:before {
   position: absolute;
-  right: 0;
-  top: 22px;
+  right: 405px;
+  top: 0;
   content: "";
-  width: 0;
-  height: 0;
+  width: 15px;
+  height: 5px;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-right: 5px solid $dark;
+  border-right: 5px solid $accent-color;
 }

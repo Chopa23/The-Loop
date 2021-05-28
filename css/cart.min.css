@@ -19,8 +19,21 @@ a {
 
 .informer {
   display: inline-block;
-  padding: 3 20px;
+  padding: 3px 18px;
+  margin: 3px;
   background-color: #d7b399;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.informer:before {
+  position: absolute;
+  right: 405px;
+  top: 0;
+  content: "";
+  width: 15px;
+  height: 5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #d7b399;
 }
