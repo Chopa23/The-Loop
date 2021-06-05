@@ -1,0 +1,10 @@
+.btn {
+  display: inline-block;
+  padding: 17px 30px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  background-color: #d7b399;
+}

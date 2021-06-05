@@ -1,0 +1,38 @@
+.subscribe__inner {
+  max-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 575px 475px;
+      grid-template-columns: 575px 475px;
+  grid-gap: 65px;
+}
+
+.subscribe__title {
+  text-align: left;
+}
+
+.subscribe__email {
+  margin-right: 35px;
+  width: 255px;
+  height: 40px;
+  background-color: #f9f6f1;
+  border: none;
+  padding: 13px 20px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #8d8d8d;
+}
+
+.subscribe__btn {
+  padding: 11px 14px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}

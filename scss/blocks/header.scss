@@ -36,32 +36,4 @@
   &__link + &__link {
     margin-left: 35px;
   }
-  // &__menu-item {
-  //   .menu__link:hover .header__submenu-item {
-  //     display: block;
-  //   }
-  // }
-
-  &__submenu {
-    display: none;
-    position: absolute;
-    text-decoration: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    background-color: $accent-color;
-    z-index: 1;
-  }
-  &submenu-link {
-    color: #000;
-    text-decoration: none;
-    display: block;
-    padding: 0.8em o.3em;
-  }
-}
-.menu__item {
-  .menu__link:hover {
-    display: block;
-  }
 }

@@ -1,0 +1,90 @@
+.catalog__ {
+  padding-top: 60;
+  background-color: #f9f6f1;
+}
+
+.catalog__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.catalog__top-colomn {
+  min-height: 250px;
+  background-image: url(../../images/man.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.catalog__top-colomn--men {
+  background-position: bottom right 15px;
+  padding-top: 60px;
+}
+
+.catalog__top-colomn--women {
+  background-image: url(../../images/woman.png);
+  background-position: bottom right 44px;
+  padding-top: 60px;
+}
+
+.catalog__title {
+  margin: 0 0 25px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.catalog span {
+  font-weight: 300;
+}
+
+.catalog__btn {
+  padding: 11px 30px 11px 0;
+}
+
+.catalog__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  background-color: #f9f6f1;
+}
+
+.catalog__item {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.catalog__item-title {
+  position: absolute;
+  bottom: 24px;
+  left: 30px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.catalog__item-link {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.catalog__item-img {
+  max-width: 277px;
+}
